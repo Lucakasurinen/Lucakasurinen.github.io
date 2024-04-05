@@ -1,3 +1,5 @@
 # Hey, Tässä tietoa sivustani!
 ## Mitä sivuni sisältää?
-Sivulla on CV:ni, josta löytyy enemmän tietoa **minusta**.
+Sivullani on CV, josta löytyy enemmän tietoa **minusta**,koulutuksestani ja työkokemuksestani.
+## Miksi loin tämän sivun?
+Tätä sivua voin käyttää työnhaussa
