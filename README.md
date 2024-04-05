@@ -6,4 +6,3 @@ Sivullani on CV, josta löytyy enemmän tietoa:
 - työkokemuksestani
 ## Miksi loin tämän sivun?
 Esitelläkseni minun koulutusta/työkokemusta ja persoonallisuutta Tätä sivua voin käyttää työnhaussa.
-Täs jotain [luksia](https://eduluksia.sharepoint.com/sites/opiskelijaintranet]
