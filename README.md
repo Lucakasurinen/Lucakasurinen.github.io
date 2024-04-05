@@ -1,3 +1,3 @@
 # Hey, Tässä tietoa sivustani!
-Loin sivuni 
-
+## Mitä sivuni sisältää?
+Sivulla on CV:ni, josta löytyy enemmän tietoa **minusta**.
