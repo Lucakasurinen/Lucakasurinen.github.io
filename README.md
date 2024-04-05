@@ -1,5 +1,8 @@
 # Hey, Tässä tietoa sivustani!
 ## Mitä sivuni sisältää?
-Sivullani on CV, josta löytyy enemmän tietoa ***minusta***,koulutuksestani ja työkokemuksestani.
+Sivullani on CV, josta löytyy enemmän tietoa 
+minusta
+-koulutuksestani
+-työkokemuksestani.
 ## Miksi loin tämän sivun?
-Tätä sivua voin käyttää työnhaussa
+Esitelläkseni minun koultusta/työkokemusta ja persoonallisuutta Tätä sivua voin käyttää työnhaussa
