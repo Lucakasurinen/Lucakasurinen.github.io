@@ -5,4 +5,4 @@ Sivullani on CV, josta löytyy enemmän tietoa:
 - koulutuksestani
 - työkokemuksestani
 ## Miksi loin tämän sivun?
-Esitelläkseni minun koulutusta/työkokemusta ja persoonallisuutta Tätä sivua voin käyttää työnhaussa.
+Esitelläkseni minun koulutusta/työkokemusta ja persoonallisuutta. Tätä sivua voin käyttää työnhaussa.
