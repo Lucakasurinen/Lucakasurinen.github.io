@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini project #2</title>
+<body>
+    
+    <p>
+        This is the link:
+        <span id="link"></span>
+    </p>
+
+
+    <script>
+    var url = prompt("Enter a URL")
+
+    if(url == null) {
+        console.error("Missing input")
+    } else {
+    }
+
+    if(url.substr(0, 4) != "http") {
+          url = "http://" + url
+    }
+
+    
+
+    var spanNode = document.getElementById("link");
+    var html = "<a href='" + url + "'>" + url + "</a>"
+    spanNode.innerHTML = html;
+    
+
+    </script>
+</body>
+</head>
+</html>

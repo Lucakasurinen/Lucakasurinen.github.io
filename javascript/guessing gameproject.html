@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guessing Game</title>
+</head>
+<body>
+    
+    <h1>A Guessing Game</h1>
+
+
+    <script>
+
+       // 1. Create a loop that always asks for a number
+       // 2. if the number is in correct ask again
+       // 3. if the number is correct break out of the loop
+
+       var num = Number (prompt ("What is the number?"))
+        var theMagicNumber = 42
+        var body = document.querySelector("body")
+
+        while(true) {
+            var num = Number (prompt ("What is the number?"))   
+        
+        if(num && num == theMagicNumber) {
+                // YOU'VE WON!
+                body.style.backgroundColor = "lime"
+                body.style.color = "black"
+                body.innerHTML = "<h1>YOU WIN!</h1>"
+                break;
+           
+            }        
+        }
+    
+        
+      
+    
+    </script>
+</body>
+</html>
