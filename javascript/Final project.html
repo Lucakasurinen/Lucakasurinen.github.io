@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>final project</title>
+</head>
+<style>
+    body {
+        background-color: #f5f5f5;
+        text-align:center;
+    }
+
+    .letter {
+        font-size: 90px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        color: #999;
+        transition: all 250ms ease-in-out;
+    }
+
+    .letter.active {
+        transform: scale(1.5) rotate(20deg);
+        color: green;
+         
+    }
+</style>
+<body>
+
+    <h1>Final Project</h1>
+
+<script>
+
+    const h1 = document.querySelector("h1")
+    const letters = h1.innerText.split('')
+    let html = ""
+
+letters.forEach(letter => {
+    let classes = ''
+    if(letter !== ' ') {
+        classes = 'letter js-letter'
+    }
+    html = html + `<span class='${classes}'>${letter}</span>`
+    })
+
+    h1.innerHTML = html
+    const jsLetters = document.querySelectorAll(".js-letter")
+    jsLetters.forEach(node => {
+        node.addEventListener("mouseover", function(event) {
+            (this.classList.add)("active")
+        })
+        node.addEventListener("mouseover", function(event) {
+            (this.classList.remove)("active")
+    })
+})
+</script>
+
+</body>
+</html>
