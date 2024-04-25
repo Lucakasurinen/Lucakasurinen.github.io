@@ -1,18 +1,17 @@
-/*Styles for the body background*/
+/*Styles for the body background
+*/
+
 body {
 	color:darkblue;
-	background-color:lightgreen;
-	
+	background-color: lightgreen;
 }
-
-
 
 
 a:link { 
 color:blue;
 }
 a:visited {
-color:white;
+color:red;
 }
 a:hover {
 color:cyan;
