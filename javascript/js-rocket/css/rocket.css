@@ -71,7 +71,7 @@ a:hover{
     width:206px;
     height:65px;
     display:none;
-    /*margin-left:11px;*/
+    margin-left:11px;
 }
 
 .cant-wait.show{
