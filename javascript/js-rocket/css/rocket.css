@@ -86,7 +86,7 @@ a:hover{
     width: 143px;
     height:272px;
     margin-left: -71.5px;
-    background:url('../img/jsrocketimg/rocket-state1.png') no-repeat 0 0;
+    background:url('../img/jsrocketimg/rocket-state1\ \(1\).png') no-repeat 0 0;
     transition: bottom 10000ms;
 }
 
@@ -100,11 +100,11 @@ body.body-state1 .rocket{
 }
 /*rocket bg image*/
 body.body-state2 .rocket {
-    background-image: url('../img/jsrocketimg/rocket-state2.gif');
+    background-image: url('../img/jsrocketimg/rocket-2.gif');
 }
 body.body-state3 .rocket,
 body.body-state4 .rocket{
-    background-image: url('../img/jsrocketimg/rocket-state3.gif');
+    background-image: url('../img/jsrocketimg/rocket-2.gif');
 }
 body.body-state5 .rocket{
     background-image: url('../img/jsrocketimg/explosion.gif');
