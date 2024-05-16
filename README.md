@@ -1,4 +1,5 @@
 # Hey, Tässä tietoa sivustani!
+(/img/oma kuva.jpg "oma kuva")
 ## Mitä sivuni sisältää?
 Sivullani on CV, josta löytyy enemmän tietoa:
 - minusta
