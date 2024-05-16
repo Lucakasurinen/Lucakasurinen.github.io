@@ -8,4 +8,4 @@ Sivullani on CV, josta löytyy enemmän tietoa:
 
 ## Miksi loin tämän sivun?
 Esitelläkseni minun koulutusta/työkokemusta ja persoonallisuutta. 
- ![Tux, the Linux mascot](img/omakuva.jpg)
+ ![Tux, the Linux mascot](peukku.jpg)
