@@ -7,5 +7,5 @@ Sivullani on CV, josta löytyy enemmän tietoa:
 - opiskelijatöistäni
 
 ## Miksi loin tämän sivun?
-Esitelläkseni minun koulutusta/työkokemusta ja persoonallisuutta. 
- ![Tux, the Linux mascot](peukku.jpg)
+<p>Esitelläkseni minun koulutusta/työkokemusta ja persoonallisuutta.</p>  
+ ![peukku](peukku.jpg)
