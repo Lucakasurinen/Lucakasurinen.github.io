@@ -2,8 +2,9 @@
 */
 
 body {
-	color:darkblue;
+	color:rgb(4, 74, 74);
 	background-color: lightgreen;
+	font-size: 20px;
 	margin:0px;
 	font-family: 'lato', sans-serif;
 }
@@ -124,6 +125,7 @@ h1 {
 }
 
 h2, h3 {
+	color:rgb(7, 7, 96);
 	font-style:normal;
 	font-weight:bold;
 	font-family:Arial,Sans-serif;
