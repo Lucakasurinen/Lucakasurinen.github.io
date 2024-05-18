@@ -1,6 +1,9 @@
 body{
     background-color: lightskyblue;
+    text-align:center;
     
 }
 
-
+ul {
+    list-style-type: none;
+}
