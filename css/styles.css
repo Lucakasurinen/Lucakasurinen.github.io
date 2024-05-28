@@ -3,7 +3,7 @@
 
 body {
 	color:rgb(4, 74, 74);
-	background-color: rgb(83, 216, 107);
+	background-color: rgb(61, 182, 125);
 	font-size: 20px;
 	margin:0px;
 	font-family: 'lato', sans-serif;
@@ -16,7 +16,7 @@ main{
 body {
 	font-family: 'Lato', sans-serif;
   }
-  
+  /*navigointi*/
   .overlay {
 	height: 100%;
 	width: 0;
@@ -24,7 +24,7 @@ body {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgb(0,0,0);
+	background-color: rgb(0, 0, 0);
 	background-color: rgba(0,0,0, 0.9);
 	overflow-x: hidden;
 	transition: 0.5s;
@@ -66,27 +66,8 @@ body {
 	right: 35px;
 	}
   }
-/*.navbar ul{
-	list-style-type: none;
-	background-color: rgb(10, 131, 10);
-	padding:0px;
-	margin:0px;
-	overflow: hidden;
-}
-.navbar a{
-	color:white;
-	text-decoration:none;
-	padding:15px;
-	display:block;
-	text-align:center;
-}
-.navbar a:hover{
-	background-color: rgb(2, 74, 2);
-}
-.navbar li{
-	float:left;
-}
-*/
+
+/*linkkien värit*/
 a:link { 
 color:rgb(78, 78, 201);
 }
@@ -99,13 +80,15 @@ color:cyan;
 a:active {
 color:yellow;
 }
+
 p {
-	color:red;
+	color:rgb(rgb(61, 70, 67));
 	font-size:18px;
 	font-weight:bold;
 	font-family:Lucida, Arial, sans-serif;
 	text-indent:1.4px;
 	line-height:30px;
+	text-align: left;
 }
 	
 h1, h2 {
@@ -129,14 +112,41 @@ h2, h3 {
 	font-style:normal;
 	font-weight:bold;
 	font-family:Arial,Sans-serif;
+	text-align: center;
 	
 	
 }
 
-img{
-	width:50px;
-	height:50px;
+
+
+ol, ul {
+	text-align: center;
+	list-style-type: none;
 }
+
+h5 {
+	text-align: center;
+}
+
+dl {
+	text-align: left;
+}
+
+div.yhteystiedot{
+	text-align: center;
+}
+
+div.navbar {
+	text-align: right;
+}
+
+img {
+	border: 11px;
+}
+
+
+
+
 
 
 
