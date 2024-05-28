@@ -70,7 +70,7 @@ body {
   .flip-card {
 	background-color: transparent;
 	width: 400px;
-	height: 700px;
+	height: 650px;
 	perspective: 1000px;
   }
   
@@ -104,7 +104,7 @@ body {
   
   .flip-card-back {
 	background-color: #67acc7;
-	color: white;
+	color: rgb(43, 43, 63);
 	transform: rotateY(180deg);
   }
 
