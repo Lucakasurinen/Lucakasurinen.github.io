@@ -78,6 +78,7 @@ body {
 	height: 625px;
 	perspective: 1000px;
 	padding-left: 30px;
+	
   }
   
   .flip-card-inner {
@@ -142,14 +143,10 @@ p {
 	padding-left: 30px;
 }
 	
-h1, h2 {
-	color:purple;
-	font-family:Arial;
-
-}
 h1 {
 	color:purple;
 	font-size:50px;
+	font-family:Arial;
 	font-weight:normal;
 	text-align:center;
 	text-decoration:underline;
@@ -157,6 +154,8 @@ h1 {
 	letter-spacing:1px;
 	
 }
+
+
 
 h2, h3 {
 	color:rgb(70, 70, 189);
@@ -169,7 +168,6 @@ h2, h3 {
 }
 
 h4 {
-	font-size: 30px;
 	color: rgb(63, 63, 186);
 	font-size: 40px;
 }
