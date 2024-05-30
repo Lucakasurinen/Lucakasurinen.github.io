@@ -175,7 +175,7 @@ h4 {
 }
 
 
-/*listat*/
+
 ol, ul {
 	text-align: center;
 	list-style-type: none;
@@ -215,6 +215,7 @@ div.omakuva {
 	width: 300px;
 	height: 300px;
 	padding-left: 30px;
+	
 }
 
 
