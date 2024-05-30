@@ -3,7 +3,7 @@
 
 body {
 	color:rgb(31, 136, 136);
-	background-color: rgb(41, 38, 38);/*background-color: rgb(28, 211, 125);*/
+	background-image: url('../img/wallpaperforhtml.png');/*background-color: rgb(41, 38, 38);/*background-color: rgb(28, 211, 125);*/
 	font-size: 20px;
 	margin:0px;
 	font-family: 'lato', sans-serif;
@@ -187,8 +187,12 @@ h5 {
 
 dl {
 	text-align: left;
-	color:rgb(56, 128, 53);
+	color:rgb(27, 87, 24);
 	font-size: 25px;
+}
+
+div.kielitaidot{
+	padding-left: 50px;
 }
 
 div.yhteystiedot{
