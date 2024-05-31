@@ -69,13 +69,13 @@ body {
 /*cards*/
   .container {
 	display: flex;
-	justify-content:space-between;
+	justify-content:space-evenly;
   }
 
   .flip-card {
 	background-color: transparent;
-	width:400px;
-	height:509px;
+	width:500px;
+	height:640px;
 	perspective: 1000px;
 	padding-left: 30px;
   }
@@ -174,7 +174,7 @@ h4 {
 
 
 ol, ul {
-	text-align: center;
+	text-align: left;
 	list-style-type: none;
 }
 
