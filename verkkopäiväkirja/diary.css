@@ -11,7 +11,7 @@
     width: 100%;
     min-height: 100vh;
     background: burlywood;
-    color:#fff;
+    color:brown;
     padding-top: 4%;
     padding-left: 10%;
 }
@@ -49,6 +49,8 @@
     outline: none;
     border-radius: 5px;
 }
+
+
 /*
 h1{
       text-align: center;
