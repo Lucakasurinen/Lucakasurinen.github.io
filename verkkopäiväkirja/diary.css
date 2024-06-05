@@ -23,37 +23,50 @@ div.päivämäärä {
 
 }
 
-.sidenav {
-    height: 100%;
-    width: 160px;
+@media (max-width: 600px) {
+    .hide-on-small-screens {
+      width: 100%;
+      height: auto;
+      z-index: 1;
+    }
+  }
+  
+
+#side_nav{
+    background: rgb(0, 0, 0);
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+    min-height: 100%;
+    max-height: 100%;
+   }
   
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+   hr.h-color{
+     background: #eee;
+   }
+   
+   .sidebar li.active{
+      background: red;
+      border-radius: 8px;
+   }
+   
+   .sidebar li.active a, .sidebar li.active a:hover {
+    color: #000;
+   }
+   .sidebar li a{
+    color: #fff;
+   }
+
+   @media(max-width: 767px){
+    #side_nav{
+      margin-left: -250px;
+      position: sticky;
+      min-height: 100%;
+      
+   
+    }
+    #side_nav.active{
+      margin-left: 0;
+     }
+   }
