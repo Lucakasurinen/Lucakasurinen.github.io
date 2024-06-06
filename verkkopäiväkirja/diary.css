@@ -10,8 +10,8 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: burlywood;
-    color:brown;
+    background: burlywood;/*linear-gradient(135deg, #cf9aff, #95c0ff);*/
+    color: #fff;
     padding-top: 4%;
     padding-left: 10%;
 }
@@ -21,20 +21,25 @@
     align-items: center;
     font-size: 35px;
     font-weight: 600;
+    color: brown;
 }
 
 .container button{
-    display: flex;
-    align-items: center;
-    background: linear-gradient(#9418fd, #571094);
-    color: #fff;
-    font-size: 16px;
-    outline: 0;
-    border: 0;
-    border-radius: 40px;
-    padding: 15px, 25px;
-    margin: 30px, 20px;
-    cursor: pointer;
+   display: flex;
+   align-items: center;
+   background: linear-gradient(#9418fd, #572094);
+   color:#fff;
+   font-size: 16px;
+   outline: 0;
+   border: 0;
+   border-radius: 40px;
+   padding: 15px 25px;
+   margin: 30px 0 20px;
+}
+
+.container button img {
+  width: 25px;
+  margin-right: 8px;
 }
 
 .input-box {
@@ -45,12 +50,17 @@
     background: #fff;
     color: #333;
     padding: 20px;
-    margin: 20px, 0;
+    margin: 20px 0; 
     outline: none;
     border-radius: 5px;
 }
 
-
+.input-box img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
 /*
 h1{
       text-align: center;
