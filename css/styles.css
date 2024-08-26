@@ -187,8 +187,9 @@ h5 {
 
 dl {
 	text-align: left;
-	color:rgb(41, 100, 38);
+	color:rgb(125, 21, 42);
 	font-size: 25px;
+	font-weight: bold;
 }
 
 div.kielitaidot{
@@ -201,6 +202,8 @@ div.yhteystiedot{
     border-radius: 100px;
     padding: 20px;
     display: inline-block;
+	
+	
 }
 
 div.navbar {
