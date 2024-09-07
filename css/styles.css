@@ -103,7 +103,7 @@ body {
   }
   
   .flip-card-front {
-	background-color: rgb(59, 147, 126);
+	background-color: rgb(15, 179, 108);
 	color: black;
 	
   }
@@ -143,7 +143,7 @@ p {
 }
 	
 h1 {
-	color:purple;
+	color:rgb(187, 11, 187);
 	font-size:50px;
 	font-family:Arial;
 	font-weight:normal;
@@ -187,9 +187,10 @@ h5 {
 
 dl {
 	text-align: left;
-	color:rgb(125, 21, 42);
+	color:rgb(214, 32, 68);
 	font-size: 25px;
 	font-weight: bold;
+	
 }
 
 div.kielitaidot{
