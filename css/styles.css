@@ -75,7 +75,7 @@ body {
   .flip-card {
 	background-color: transparent;
 	width:500px;
-	height:640px;
+	height:600px;
 	perspective: 1000px;
 	padding-left: 10px;
   }
@@ -103,7 +103,7 @@ body {
   }
   
   .flip-card-front {
-	background-color: rgb(15, 179, 108);
+	background-color: rgb(18, 146, 137);
 	color: black;
 	
   }
@@ -158,25 +158,35 @@ h1 {
 
 h2, h3 {
 	color:rgb(70, 70, 189);
-	font-size: 30px;
+	font-size: 20px;
 	font-style:normal;
 	font-weight:bold;
 	font-family:Arial,Sans-serif;
 	text-align: center;
+
 	
+	
+}
+
+div.koulutus{
+	text-decoration: underline rgb(10, 70, 112);
 	
 }
 
 h4 {
 	color: rgb(63, 63, 186);
 	font-size: 40px;
+
 }
 
 
 
 ol, ul {
 	text-align: left;
+	font-size: 20px;
 	list-style-type: none;
+	color: rgb(180, 25, 25);
+	font-weight: bold;
 }
 
 h5 {
@@ -188,13 +198,15 @@ h5 {
 dl {
 	text-align: left;
 	color:rgb(214, 32, 68);
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	
 }
 
 div.kielitaidot{
 	padding-left: 50px;
+	border: solid 5px;
+	border-radius: 100px;
 }
 
 div.yhteystiedot{
