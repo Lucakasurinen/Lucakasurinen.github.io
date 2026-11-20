@@ -2,7 +2,7 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 // CV:n tulostaminen / PDF-tallennus selaimen tulostusvalikosta
-document.getElementById("printCv").addEventListener("click", () => window.print());
+/*document.getElementById("printCv").addEventListener("click", () => window.print());*/
 
 // Näytä takaisin ylös -painike vieritettäessä
 const backToTop = document.getElementById("backToTop");
